@@ -1,0 +1,26 @@
+---
+kind: kubernetes
+app: APP_NAME_GOES_HERE
+type: web
+team: TEAM_NAME_GOES_HERE
+docker_image: APP_NAME_GOES_HERE
+internal: true
+replicas: 1
+container_port: 4000
+read_only_root_filesystem: false
+healthcheck:
+  path: /health
+  initialDelaySeconds: 60
+  timeoutSeconds: 50
+  periodSeconds: 50
+  failureThreshold: 10
+revisionHistoryLimit: 10
+dns:
+  zone: cglcloud
+  name: APP_NAME_GOES_HERE
+configs:
+  - name: secrets
+    type: secret
+    containers: [APP_NAME_GOES_HERE]
+    secrets:
+      - name: NODE_ENV
