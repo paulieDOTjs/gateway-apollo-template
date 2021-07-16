@@ -82,19 +82,17 @@ In the _src/api/services/endpoints_ folder add **any number JSON files** that ma
 
 ```
 {
- "name": "customer_service",
- "team": "Cargill Customer Support Team",
+ "name": "weather",
  "git_repo": "https://git.cglcloud.com/team_name/repo",
- "dev_url": "https://app_name.dev.cglcloud.in/graphql",
- "stage_url": "https://app_name.stage.cglcloud.in/graphql",
- "prod_url": "https://app_name.cglcloud.com/graphql"
+ "dev_url": "https://url.com/graphql",
+ "stage_url": "https://url.com/graphql",
+ "prod_url": "https://url.com/graphql"
 }
 
 ```
 
 # Make It Your Own
 
-First search the application for TEAM_NAME_GOES_HERE and replace it with your team name and APP_NAME_GOES_HERE and replace it with your application name. This will be necessary for Cargill cloud deployment on Captain. Read about Captain here: https://wiki.cglcloud.com/index.php/Cargill_Cloud_Platform.
 
 I have preconfigured eslint, typescript, and prettier to behave how I like. These keep coding patterns consistent across the project and will throw errors if you make different stylistic choices. Feel free to use it. Feel free to modify it. Feel free to throw it away completely. Make it your own! Have fun with it! This is your project now.
 
