@@ -101,7 +101,3 @@ I have preconfigured eslint, typescript, and prettier to behave how I like. Thes
 # A Picture Is Worth A Thousand Words
 
 This implementation is set up with a **visualizer of the graph.** By navigating to [url of app]/public/visualizer.html GraphQL Voyager will introspect the GraphQL API on page load and generate a visual. This will help **you and your clients** have better **mental model** of your **types** and their corresponding **fields** and **relationships.** See more about GraphQL Voyager here: https://github.com/APIs-guru/GraphQL-voyager.
-
-# Schrödinger's Security Protocols
-
-If you are using this on Cargill computer and getting a "SELF_SIGNED_CERT_IN_CHAIN" error when running getCatFacts you are likely hitting a Cargill proxy issue. Cargill and node are both tryig to make sure you are safe (which is very nice of both of them) but this is blocking the HTTP request from coming in. To fix this run "export NODE_TLS_REJECT_UNAUTHORIZED=0" in the terminal you are using to run this app then restart the server. This will upset Node but that's okay Cargill still has your back. Read more here https://wiki.cglcloud.com/index.php/Proxy#NPM_Config.
