@@ -19,7 +19,7 @@ export const apollo = new ApolloServer({
   //allow playground in every environment
   playground: {
     faviconUrl: "/public/favicon.ico",
-    title: "Cargill CDA",
+    title: "My App",
 
     settings: {
       "editor.fontFamily":
