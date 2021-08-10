@@ -99,3 +99,7 @@ I have preconfigured eslint, typescript, and prettier to behave how I like. Thes
 # A Picture Is Worth A Thousand Words
 
 This implementation is set up with a **visualizer of the graph.** By navigating to [url of app]/public/visualizer.html GraphQL Voyager will introspect the GraphQL API on page load and generate a visual. This will help **you and your clients** have better **mental model** of your **types** and their corresponding **fields** and **relationships.** See more about GraphQL Voyager here: https://github.com/APIs-guru/GraphQL-voyager.
+
+## welcome to the family
+
+This repo goes hand in hand with my repo https://github.com/paulieDOTjs/gateway-apollo-template. They are built to intermingle and mesh into one big happy Graph.
