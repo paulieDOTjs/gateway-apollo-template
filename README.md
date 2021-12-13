@@ -81,21 +81,6 @@ First off, **what is GraphQL?** GraphQL as defined by GraphQL.org is _"a query l
 
 This is a template to build an Apollo GraphQL Gateway. This gateway can be pointed at **any number of compatible GraphQL APIs** and they will be **combined together** into **one** _happy_ **graph.** To see which implementations of GraphQL are compatible see here: https://www.apollographql.com/docs/federation/other-servers/. These subgraphs can point from one domain to another **passing** around **necessary primary keys** and other information to **establish relationships.** Using this implementation, you will have the **benefits of a micro-service architecture** while still having **one central URL for all data exchange** that has **domain relations baked right in.** You can find information about Apollo Federation here: https://www.apolloGraphQL.com/docs/federation/.
 
-# Let's Make It Happen
-
-In the _src/api/services/endpoints_ folder add **any number JSON files** that match the service shape I created that correspond to **running GraphQL Services** and **deploy this app** to the cloud. This app will **introspect the schemas** of all of these servies and **centralize them here.** The shape should look like this
-
-```
-{
- "name": "weather",
- "git_repo": "https://git.cglcloud.com/team_name/repo",
- "dev_url": "https://url.com/graphql",
- "stage_url": "https://url.com/graphql",
- "prod_url": "https://url.com/graphql"
-}
-
-```
-
 # Make It Your Own
 
 I have preconfigured eslint, typescript, and prettier to behave how I like. These keep coding patterns consistent across the project and will throw errors if you make different stylistic choices. Feel free to use it. Feel free to modify it. Feel free to throw it away completely. Make it your own! Have fun with it! This is your project now.
@@ -106,4 +91,4 @@ This implementation is set up with a **visualizer of the graph.** By navigating 
 
 ## welcome to the family
 
-This repo goes hand in hand with my repo https://github.com/paulieDOTjs/gateway-apollo-template. They are built to intermingle and mesh into one big happy Graph.
+This repo goes hand in hand with my repo https://github.com/paulieDOTjs/service-apollo-template. They are built to intermingle and mesh into one big happy Graph.
