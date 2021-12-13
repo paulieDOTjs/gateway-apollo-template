@@ -26,11 +26,16 @@ Again, if you get an error (don't worry the error doesn't hurt your computer it'
 
 You can see how to download NPM here: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
-### Bonus installations: NVM and Homebrew
+### Bonus installation: NVM
 
 **If you plan on doing a lot of Node development** I would recommend **Node Version Manager (NVM).** And use NVM to install NPM. See more here: https://github.com/nvm-sh/nvm
 
-**If you are on Mac or Linux** _and_ you want to do **a lot of Node development** you can install NVM using **Homebrew.** Read more here: https://brew.sh/ and here: https://formulae.brew.sh/formula/nvm#default.
+### Bonus installation: VS Code Extensions
+
+- Apollo Graphql: https://marketplace.visualstudio.com/items?itemName=apollographql.vscode-apollo
+- Apollo Workbench: https://marketplace.visualstudio.com/items?itemName=apollographql.apollo-workbench
+- GraphQL: https://marketplace.visualstudio.com/items?itemName=GraphQL.vscode-graphql
+- graphql-codegen: https://marketplace.visualstudio.com/items?itemName=capaj.graphql-codegen-vscode
 
 ### Installing Yarn
 
@@ -68,7 +73,7 @@ once that finishes installing (should take a few minutes) you should then run:
 npm run dev
 ```
 
-**Yarn runs on NPM you cannot both at the same time.**
+**Yarn runs on NPM and you cannot use both at the same time.**
 
 # Usage
 
@@ -92,7 +97,6 @@ In the _src/api/services/endpoints_ folder add **any number JSON files** that ma
 ```
 
 # Make It Your Own
-
 
 I have preconfigured eslint, typescript, and prettier to behave how I like. These keep coding patterns consistent across the project and will throw errors if you make different stylistic choices. Feel free to use it. Feel free to modify it. Feel free to throw it away completely. Make it your own! Have fun with it! This is your project now.
 
