@@ -1,6 +1,6 @@
+/* eslint-disable no-console */
 import { apollo } from "./apollo";
 import dotenv from "dotenv";
-/* eslint-disable no-console */
 import express from "express";
 import logger from "morgan";
 import path from "path";
